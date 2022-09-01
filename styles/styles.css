@@ -38,4 +38,26 @@ main {
 .input1 {
   margin: 5% 0;
   width: 110%;
+  height: 50%;
+}
+
+.third {
+  background-color: aqua;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4%;
+  color: #78363f;
+}
+
+.radio {
+  background-color: beige;
+  font-size: medium;
+  min-width: 25vh;
+  width: 30vw;
+  padding: 1%;
+  color: #9f515a;
+}
+
+.p1 {
+  font-size: 3vw;
 }
