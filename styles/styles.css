@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #acabab;
+  margin-top: 3%;
+}
+main {
+  background-color: blue;
+  width: 90%;
+}
+
+.first {
+  text-align: center;
+  font-size: larger;
+  color: #78363f;
+  background-color: white;
+  padding: 2%;
+}
+.second {
+  background-color: violet;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 2%;
+  color: #78363f;
+}
+.second_child {
+  background-color: red;
+  font-size: 3vw;
+  max-inline-size: 50%;
+  padding: 5% 0;
+  padding-right: 5%;
+}
+.pname {
+  background-color: green;
+}
+
+.input1 {
+  margin: 5% 0;
+  width: 110%;
+}
