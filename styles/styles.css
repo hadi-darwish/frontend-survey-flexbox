@@ -5,8 +5,9 @@ body {
   margin-top: 3%;
 }
 main {
-  background-color: blue;
+  background-color: #e5e4e5;
   width: 90%;
+  height: fit-content;
 }
 
 .first {
@@ -17,7 +18,6 @@ main {
   padding: 2%;
 }
 .second {
-  background-color: violet;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -25,14 +25,10 @@ main {
   color: #78363f;
 }
 .second_child {
-  background-color: red;
   font-size: 3vh;
   max-inline-size: 50%;
   padding: 5% 0;
   padding-right: 5%;
-}
-.pname {
-  background-color: green;
 }
 
 .input1 {
@@ -44,7 +40,6 @@ main {
 }
 
 .third {
-  background-color: aqua;
   display: flex;
   flex-wrap: wrap;
   padding: 0 4%;
@@ -52,13 +47,11 @@ main {
 }
 
 .radio {
-  background-color: beige;
   font-size: medium;
   min-width: 25vh;
   width: 30vw;
   padding: 1%;
   color: #9f515a;
-  /* margin: 2% 0%; */
 }
 
 .p1 {
